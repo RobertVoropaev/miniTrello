@@ -13,6 +13,9 @@ export class CardList extends React.Component{
 
     onClickAdd = () => {
         let result = prompt("Enter title", "New Card");
+        if(!result){
+            return;
+        }
         const newCard = {
                 id: this.props.nextId,
                 title: result,
