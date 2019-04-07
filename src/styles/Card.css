@@ -1,0 +1,46 @@
+.card {
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    width: 100%;
+    background: rgba(0,0,0,.01);
+    position: relative;
+}
+
+.btn-remove{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 30px;
+    height: 30px;
+}
+
+.btn-group{
+    width: 70%;
+}
+
+.btn-edit{
+    width: 60%;
+}
+
+.btnLeftRight{
+    margin-top: 8px;
+    width: 20%;
+}
+
+h3{
+    margin: 0rem;
+}
+
+textarea{
+    min-height: 3rem;
+    resize: none;
+}
+
+.text-justify{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
